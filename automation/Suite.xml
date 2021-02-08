@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" verbose="2"><!-- parallel="tests"
+		thread-count="2" -->
+
+
+	<test verbose="1" name="test">
+
+		<classes>
+			<!--<class name="tests.ApiTest">
+				<methods>
+					<include name="test" />
+				</methods>
+			</class>-->
+			<class name="tests.GoogleTest">
+				<methods>
+					<include name="firstTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
